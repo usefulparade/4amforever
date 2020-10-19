@@ -75,7 +75,7 @@ img {
 
 
 a:link {
-    color: var(--color4);
+    color: var(--color2);
     text-shadow: -2px 2px var(--color3);
     padding: 3px;
     text-decoration: none;
@@ -83,7 +83,7 @@ a:link {
     
 }
 a:active {
-    color: var(--color4);
+    color: var(--color2);
 }
 a:visited {
     color: var(--color2);
