@@ -44,25 +44,24 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'VCR', Courier, monospace;
-    color: var(--color4);
-    text-shadow: -6px 4px var(--color2);
+    color: var(--color2);
+    /* text-shadow: -5px 0px var(--color3), -5px 5px var(--color3), 0px 5px var(--color3); */
     font-size: 4em;
     margin: 10px;
     text-align: center;
 }
 
 h1 {
-    animation-name: swimmy;
+    /* animation-name: swimmy;
     animation-duration: 2s;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
 p {
     line-height: 1.5em;
-    text-shadow: -2px 2px var(--color4);
-    /* text-shadow: -4px 4px var(--color2); */
+    /* text-shadow: -2px 2px var(--color4); */
 }
 
 img {
@@ -77,7 +76,7 @@ img {
 
 a:link {
     color: var(--color2);
-    text-shadow: -2px 2px var(--color3);
+    /* text-shadow: -2px 2px var(--color3); */
     padding: 3px;
     text-decoration: none;
     /* border-bottom: 10px solid; */
@@ -128,6 +127,7 @@ input {
 input.button:hover {
     color: var(--color4);
     background: var(--color2);
+    text-shadow: -4px 2px var(--color1);
     cursor: pointer;
     
 }
