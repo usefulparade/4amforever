@@ -61,7 +61,7 @@
         top: 10px;
         /* left: calc(50% - 122px); */
         left: 10px;
-        width: 144px;
+        width: 100%;
     }
 
     .logo a:link {
@@ -131,7 +131,7 @@
     h1, h2, h3 {
         font-family: 'nightskate', Courier, monospace;
         color: var(--color4);
-        background-color: var(--color1);
+        /* background-color: var(--color1); */
         padding: 10px;
         border-radius: 2px;
         /* text-shadow: -4px 4px var(--color1); */
@@ -253,13 +253,14 @@
 
     video {
         display: block;
-        width: 90%;
+        width: 50%;
         max-width: 422px;
         position: relative;
         /* margin-top: 240px; */
         margin-left: auto;
         margin-right: auto;
-        border: 6px solid var(--color1);
+        margin-bottom: 10px;
+        border: 12px solid var(--color1);
         border-radius: 2px;
         image-rendering: pixelated;
     }
@@ -397,8 +398,12 @@
 
     @media only screen and (max-width: 782px){
 
+        p {
+            font-size: 12px;
+        }
+
         .logo {
-            width: 130px;
+            width: 50%;
         }
 
         .header h1 {
@@ -406,8 +411,8 @@
             position: fixed;
             
             top: 0px;
-            left: 125px;
-            margin-top: 45px;
+            left: 60px;
+            margin-top: 24px;
             font-size: 24px;
         }
 
@@ -415,7 +420,13 @@
             font-size: 18px;
         }
         h1 {
-            font-size: 2em;
+            font-size: 24px;
+        }
+        
+        video {
+            display: inline-block;
+            position: relative;
+
         }
 
         .container {
@@ -428,13 +439,35 @@
             max-width: 112px;
         }
 
+        .centered {
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+        }
+
+        .social-link {
+            bottom: -4px;
+            width: 24px;
+            height: 24px;
+        }
+
         #nav p {
             display: inline-block;
             box-sizing: border-box;
             width: 60%;
-            min-height: 150px;
+            min-height: 100px;
             margin: 0px;
             vertical-align: top;
+        }
+
+        a#cover {
+            width:100px;
+            height: 100px;
+        }
+
+        a#cover img{
+            width:100px;
+            height: 100px;
         }
     }
 
