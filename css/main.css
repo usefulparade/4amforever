@@ -71,6 +71,11 @@
         height: 0px;
     }
 
+    .logo a:hover{
+        filter: drop-shadow( -5px 5px var(--color2));
+        
+    }
+
     .header {
         display: block;
         position: fixed;
@@ -389,7 +394,7 @@
         position: fixed;
         left: 0px;
         bottom: 0px;
-        border-top: 4px solid var(--color3);
+        border-top: 2px solid var(--color3);
         height: 100px;
         width: 100%;
         background-color: var(--color1);
@@ -443,12 +448,37 @@
             display: inline-block;
             position: relative;
             vertical-align: top;
+            width: 40%;
+        }
+
+        .centered #button {
+            display: inline-block;
+            width: 100%;
+        }
+
+        .footer {
+            height: 60px;
         }
 
         .social-link {
-            bottom: -4px;
+            bottom: 14px;
             width: 24px;
             height: 24px;
+        }
+
+        .social {
+            margin-right: 10px;
+        }
+
+        #mc_embed_signup{
+            display: block;
+            position: fixed;
+            left: 10px;
+            bottom: 10px;
+            font-family: 'forever',Courier,monospace; 
+            font-size: 18px;
+            width: 300px;
+            height: 32px;
         }
 
         #nav p {
